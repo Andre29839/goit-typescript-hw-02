@@ -2,9 +2,9 @@
   Використовуйте generics та інтерфейси, щоб виправити помилку в наступних класах:
 */
 
-type Title = {
+interface Title {
   title: string;
-};
+}
 
 class Component<T> {
   constructor(public props: T) {}
